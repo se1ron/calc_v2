@@ -1,0 +1,97 @@
+/**
+ * Body CSS
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+html,
+body,
+input,
+textarea,
+buttons {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+
+/**
+ * Sidebar CSS
+ */
+
+#sidebar {
+  background-color: #E57373;
+  padding: 15px;
+}
+
+.mui-textfield{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mui-btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    height: 100%;
+    padding-top: 30px;
+  }
+}
+
+@media(min-width:2000px){
+  h1{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  h3{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .mui-divider{
+    margin-top: 1rem;
+    font-size: 4rem;
+  }
+  .mui-textfield--float-label>label{
+    font-size: 1.9rem;
+  }
+
+  .mui-btn{
+    width: 15rem;
+    height: 6rem;
+    font-size: 1.7rem;
+
+  }
+  .mui--text-dark-secondary{
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+  .mui-textfield{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+
+  .mui-textfield>input{
+    font-size: 2.3rem;
+  }
+}
+/**
+ * Content CSS
+ */
+@media (min-width: 768px) {
+  #content {
+    margin-left: 180px;
+  }
+}
